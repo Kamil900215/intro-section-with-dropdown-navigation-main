@@ -6,8 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>intro section with dropdown navigation main</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
+   <nav class="nav" data-navigation>
+    <img class="logo" src="./assets/logo.svg" alt="">
+    <div class="hamburger" data-hamburger></div>
+    <div class="nav-menu">
+        <ul class="nav-items">
+            <li class="nav-item">Features</li>
+            <li class="nav-item">Company</li>
+            <li class="nav-item">Careers</li>
+            <li class="nav-item">About</li>
+        </ul>
+        <div class="user">
+            <button class="btn">Login</button>
+            <button class="btn btn-register">Register</button>
+        </div>
+    </div>
+    </nav>
+    <section class="hero">  
+        <picture class="image-wrapper">
+            <source srcset="./assets/image-hero-mobile.png" media="(max-width: 1000px)">
+            <source srcset="./assets/image-hero-desktop.png" media="(min-width:1000px)">
+            <img src="./assets/image-hero-mobile.png" alt="">
+        </picture>
+
+        <article class="article">
+            <h1 class="title">Make remote work</h1>
+            <p class="text">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+            <button class="btn btn-article">Learn more</button>
+            <ul class="clients">
+                <li><img class="client-logo" src="./assets/client-databiz.svg" alt=""></li>
+                <li><img class="client-logo" src="./assets/client-audiophile.svg" alt=""></li>
+                <li><img class="client-logo" src="./assets/client-meet.svg" alt=""></li>
+                <li><img class="client-logo" src="./assets/client-maker.svg" alt=""></li>
+            </ul>
+        </article> 
+    </section>
     
 </body>
 </html>
