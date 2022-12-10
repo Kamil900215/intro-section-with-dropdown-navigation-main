@@ -14,8 +14,22 @@
     <div class="hamburger" data-hamburger></div>
     <div class="nav-menu">
         <ul class="nav-items">
-            <li class="nav-item">Features</li>
-            <li class="nav-item">Company</li>
+            <li class="nav-item" 
+            data-button-feat>Features
+                    <ul class="features-dropdown">
+                        <li class="dropdown-item"><img src="./assets/icon-todo.svg" alt=""> Todo List</li>
+                        <li class="dropdown-item"><img src="./assets/icon-calendar.svg" alt=""> Calendar</li>
+                        <li class="dropdown-item"><img src="./assets/icon-reminders.svg" alt=""> Reminders</li>
+                        <li class="dropdown-item"><img src="./assets/icon-planning.svg" alt=""> Planning</li>
+                    </ul>
+            </li>
+            <li class="nav-item" data-button-company>Company
+                    <ul class="company-dropdown">
+                        <li class="dropdown-item">History</li>
+                        <li class="dropdown-item">Our Team</li>
+                        <li class="dropdown-item">Blog</li>
+                    </ul>
+            </li>
             <li class="nav-item">Careers</li>
             <li class="nav-item">About</li>
         </ul>
